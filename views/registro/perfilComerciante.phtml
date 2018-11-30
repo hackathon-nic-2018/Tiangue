@@ -1,5 +1,5 @@
 <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li class="active"><a data-toggle="tab" href="#home">Inicio</a></li>
     <li><a data-toggle="tab" href="#mperfil">Perfil</a></li>
     <li><a data-toggle="tab" href="#mnegocio">Negocio</a></li>
     <li><a data-toggle="tab" href="#mproductos">Productos</a></li>
@@ -10,19 +10,15 @@
 <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
         <h3>Perfil</h3>
-        <p>Datos Principales.</p>
+        <p>Bienvenido a su Perfil de Negocio.</p>
+        <img src="<?php echo $_layoutParams['ruta_img'];?>banner_default.jpg" alt="">
     </div>
-    <div id="#mperfil" class="tab-pane fade">
+    <div id="mperfil" class="tab-pane fade">
         <h3>Perfil del Comerciante</h3>
         <p>perfil comerciante</p>
     </div>
-    <div id="#mnegocio" class="tab-pane fade">
-        <h3>Negocio</h3>
+    <div id="mnegocio" class="tab-pane fade">
 
-
-
-
-        <br>
         <div class="card card-register">
             <div class="card-header text-center"><h1 class="text-info">Registra Tu Negocio</h1></div>
             <div class="card-body">
@@ -31,21 +27,25 @@
                         <div class="form-row">
                             <div class="col-md-3">
                                 <label for="Nom">Negocio</label>
-                                <input class="form-control" name="nom" id="Nom" type="text" aria-describedby="nameHelp" placeholder="Nombre del Negocio">
+                                <input class="form-control" name="nom" id="Nom" type="text" aria-describedby="nameHelp" placeholder="Nombre del Negocio" value="<?php if(isset($this->negocio['nombre_negocio']))
+                                    echo $this->negocio['nombre_negocio'];?>">
                             </div>
                             <div class="col-md-3">
                                 <label for="tel">Telefono</label>
-                                <input class="form-control" name="tel" id="tel" type="text" aria-describedby="nameHelp" placeholder="Telefono">
+                                <input class="form-control" name="tel" id="tel" type="text" aria-describedby="nameHelp" placeholder="Telefono" value="<?php if(isset($this->negocio['tel']))
+                                    echo $this->negocio['tel'];?>">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-3">
                                 <label for="dir">Direccion</label>
-                                <input class="form-control" name="dir" id="dir" type="text" aria-describedby="nameHelp" placeholder="Direccion">
+                                <input class="form-control" name="dir" id="dir" type="text" aria-describedby="nameHelp" placeholder="Direccion" value="<?php if(isset($this->negocio['dir']))
+                                    echo $this->negocio['dir'];?>">
                             </div>
                             <div class="col-md-3">
                                 <label for="des">Descripcion</label>
-                                <input class="form-control" iname="des" id="des" type="text" aria-describedby="nameHelp" placeholder="Descripcion">
+                                <input class="form-control" iname="des" id="des" type="text" aria-describedby="nameHelp" placeholder="Descripcion" value="<?php if(isset($this->negocio['descripcion']))
+                                    echo $this->negocio['descripcion'];?>">
                             </div>
                             <div class="form-row">
                                 <div class="col-md-3">
@@ -63,21 +63,25 @@
                             </div>
                             <div class="col-md-3">
                                 <label for="lat">Latitud</label>
-                                <input class="form-control" name="lat" id="lat" type="text" aria-describedby="nameHelp" placeholder="Latitud">
+                                <input class="form-control" name="lat" id="lat" type="text" aria-describedby="nameHelp" placeholder="Latitud" value="<?php if(isset($this->negocio['valoracion']))
+                                    echo $this->negocio['latitudnegocio'];?>">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-3">
                                 <label for="long">Longitud</label>
-                                <input class="form-control" name="long" id="long" type="text" aria-describedby="nameHelp" placeholder="Longitud">
+                                <input class="form-control" name="long" id="long" type="text" aria-describedby="nameHelp" placeholder="Longitud" value="<?php if(isset($this->negocio['longitudnegocio']))
+                                    echo $this->negocio['longitudnegocio'];?>">
                             </div>
                             <div class="col-md-3">
                                 <label for="horap">Horario de Apertura</label>
-                                <input class="form-control" name="horap" id="horap" type="text" aria-describedby="nameHelp" placeholder="horario de Apertura">
+                                <input class="form-control" name="horap" id="horap" type="text" aria-describedby="nameHelp" placeholder="horario de Apertura" value="<?php if(isset($this->negocio['longitudnegocio']))
+                                    echo $this->negocio['horaabierto'];?>">
                             </div>
                             <div class="col-md-3">
                                 <label for="horac">Horario de Cierre</label>
-                                <input class="form-control" name="horac" id="horac" type="text" aria-describedby="nameHelp" placeholder="horario de Cierre">
+                                <input class="form-control" name="horac" id="horac" type="text" aria-describedby="nameHelp" placeholder="horario de Cierre" value="<?php if(isset($this->negocio['longitudnegocio']))
+                                    echo $this->negocio['horacerrado'];?>">
                             </div>
                         </div>
                     </div>
@@ -86,27 +90,76 @@
                 <div class="form-group">
                     <div class="col-md-4 col-lg-offset-4">
                         <br>
-                        <button type="button" class="btn btn-primary btn-block" >Registrar</button>
+                        <button type="button" class="btn btn-primary btn-block" >Actualizar</button>
                         <br>
                     </div>
                 </div>
             </div>
             </form>
         </div>
-    </div>
-    </div>
 
-    <div id="#mproductos" class="tab-pane fade">
+</div>
+
+    <div id="mproductos" class="tab-pane fade">
         <h3>Lista de Productos</h3>
+        <table>
+            <thead><tr><th>Nombre</th><th>Descripcion</th> <th>Precio</th><th>Accion</th></tr></thead>
+            <?php echo $this->lista_productos;?>
+        </table>
+
+        <h4>Agregar Productos</h4>
+        <form action="" method="post" enctype="multipart/form-data">
+<input type="hidden" value="1" name="cargar_imagen_pro">
+
+            <input type="hidden" name="id_negocio_pro" value="<?php if(isset($this->negocio['idnegocio']))
+                echo $this->negocio['idnegocio'];?>">
+
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-3">
+                        <label for="Nom">Nombre</label>
+                        <input class="form-control" name="nom_pro" id="nom_pro" type="text" aria-describedby="nameHelp" placeholder="Nombre del Negocio" >
+                    </div>
+                    <div class="col-md-3">
+                        <label for="des">Descripcion</label>
+                        <input class="form-control" name="des_pro" id="des_pro" type="text" aria-describedby="nameHelp" placeholder="Descripcion" >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-3">
+                        <label for="dir">Precio</label>
+                        <input class="form-control" name="precio_pro" id="precio_pro" type="text" aria-describedby="nameHelp" placeholder="Direccion" >
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-md-3">
+                            <label for="portada">Portada</label>
+                            <input class="" name="portada_pro" id="portada_pro" type="file" aria-describedby="emailHelp" placeholder="Portada">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <div class="col-md-4 col-lg-offset-4">
+                        <br>
+                        <input type="submit" id="btagregar_producto" type="button" class="btn btn-primary btn-block" value="Agregar Producto"/>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </form>
+
 
     </div>
 
-    <div id="#meventos" class="tab-pane fade">
+    <div id="meventos" class="tab-pane fade">
         <h3>Eventos</h3>
 
     </div>
 
-    <div id="#mpromociones" class="tab-pane fade">
+    <div id="mpromociones" class="tab-pane fade">
         <h3>Promociones</h3>
 
     </div>
@@ -114,6 +167,21 @@
 </div>
 
 
+<script>
+    $("#btagregar_producto").click(function () {
+        var nompro=$("#nom_pro").val();
+        var preciopro=$("#precio_pro").val();
+        var descripro=$("#des_pro").val();
+        var portadapro=$("#portada_pro").val();
 
+       $.ajax({
+           url:"registro/agregarProducto",
+           data:{'nombre':nompro,'precio':preciopro,'descri':descripro,'portadapro':portadapro},
+           success:function (data) {
+
+           }
+       }) ;
+    });
+</script>
 
 

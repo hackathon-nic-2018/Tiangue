@@ -35,6 +35,32 @@ class registroController extends Controller{
     public function perfilComerciante($id)
     {
         Session::acceso('usuario');
+        $negocio=$this->_registro-> obtenerNegocio($id);
+        $productos=$this->_registro->obtenerProductos($id);
+        $lineas="";
+        for($i=0;$i<count($productos);$i++)
+            $lineas=$lineas."<tr><td>".$productos[$i]['nompro']."</td><td>".$productos[$i]['precio']."</td><td>".$productos[$i]['descri']."</td><td><a href='#'>Eliminar</a></td></tr>";
+
+        $this->_view->lista_productos=$lineas;
+/*
+        $datos_persona=$this->_registro->obtenerDatosPersona($id);
+
+
+
+       $promociones =$this->_registro->obtenerPromociones($id);
+
+       $eventos= $this->_registro->obtenerEventos($id);*/
+        $this->_view->negocio=$negocio;
+        if($this->getTexto("cargar_imagen_pro")==1)
+        {
+            $info=getimagesize($_FILES["portada_pro"]["tmp_name"]);
+
+            $imgContenido=file_get_contents($_FILES["portada_pro"]["tmp_name"]);
+
+          $pro=  $this->_registro->insertarProducto($this->getTexto('nom_pro'),$this->getTexto('des_pro'),$this->getTexto('precio_pro'),$this->getTexto('id_negocio_pro'),$imgContenido);
+       echo $pro;
+
+        }
         $this->_view->renderizar('perfilComerciante');
     }
 
@@ -45,6 +71,9 @@ class registroController extends Controller{
         echo false;
         else
            echo $resp;
+
+    }
+    public function agregarProductos(){
 
     }
 

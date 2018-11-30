@@ -7,6 +7,9 @@
 	Typography
 \*----------------------------*/
 
+#contenidogeneral{
+  min-height: 230px;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;

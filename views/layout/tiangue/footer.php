@@ -1,5 +1,4 @@
-<div class="clear"></div>
-
+<div id="contenidogeneral"></div>
 <!-- FOOTER -->
 <footer id="footer">
     <!-- top footer -->
