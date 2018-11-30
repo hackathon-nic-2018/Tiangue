@@ -4,117 +4,13 @@
 ?>
 
 
-
-<body>
-<!-- HEADER -->
-<header>
-    <!-- MAIN HEADER -->
-    <div id="header">
-        <!-- container -->
-        <div class="container">
-            <!-- row -->
-            <div class="row">
-                <!-- LOGO -->
-                <div class="col-md-3">
-                    <div class="header-logo">
-                        <a href="#" class="logo">
-                            <img src="<?php echo $_layoutParams['ruta_img'];?>/h1.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <!-- /LOGO -->
-
-
-
-
-                <!-- categorias -->
-                <div class="col-md-9">
-                    <div class="header-search">
-
-                            <select class="input-select">
-                                <option value="0">Categorias</option>
-                                <option value="1">TRUCHA</option>
-                                <option value="1">RESTAURANTE</option>
-                                <option value="1">TIENDA</option>
-                                <option value="1">MISSELANEA</option>
-                                <option value="1">SUPERMERCADO</option>
-                                <option value="1">LICORERIA</option>
-                                <option value="1">ASERRADERO</option>
-                                <option value="1">BENEFICIO DE CAFÉ</option>
-                                <option value="1">PROCESADORA DE TABACO</option>
-                                <option value="1">EMPRESA CONSTRUCTORA</option>
-                                <option value="1">FABRICA</option>
-                                <option value="1">SERVICIOS BANCARIOS</option>
-                                <option value="1">SERVICIOS PROFESIONALES</option>
-                                <option value="1">SERVICIOS MEDICOS</option>
-                                <option value="1">TALLER</option>
-                                <option value="1">SALON DE BELLEZA</option>
-                                <option value="1">MOLINOS</option>
-                                <option value="1">TOSTADORA DE CAFÉ</option>
-                                <option value="1">BAR</option>
-                                <option value="1">BAR Y RESTAURANTE</option>
-                                <option value="1">PANADERIA</option>
-                                <option value="1">LICORERIA</option>
-                                <option value="1">PULPERIA</option>
-                                <option value="1">FARMACIA</option>
-                                <option value="1">TRANSPORTE</option>
-                                <option value="1">COMEDOR</option>
-
-                                <option value="1">VULCANIZADORA</option>
-                                <option value="1">ENTIDAD FINANCIERA</option>
-                                <option value="1">PUBLICIDAD</option>
-                                <option value="1">ALQUILER</option>
-                                <option value="1">BILLARES</option>
-                                <option value="1">VIDEO JUEGOS</option>
-                                <option value="1">FRITANGA</option>
-                                <option value="1">FOTOCOPIADO</option>
-                                <option value="1">IMPORTACIONES Y EXPORTACIONES</option>
-                                <option value="1">JUEGOS DE AZAR</option>
-                                <option value="1">AUTOLAVADO</option>
-
-                                <option value="1">CLINICA</option>
-                                <option value="1">FUNERARIA</option>
-                                <option value="1">EMISORA</option>
-                                <option value="1">BUFFE JURIDICO</option>
-                                <option value="1">SUPERMERCADO</option>
-                                <option value="1">CAFETIN</option>
-                                <option value="1">DECORACIÓN</option>
-                                <option value="1">ACADEMIA</option>
-                                <option value="1">ESCUELA</option>
-                                <option value="1">SERIGRAFIAS</option>
-                                <option value="1">LIBRERIA</option>
-
-                                <option value="1">CIBER</option>
-                                <option value="1">BARBERIA</option>
-                                <option value="1">TELECOMUNICACIONES</option>
-                                <option value="1">CENTRO DE CAPACITACIONES</option>
-                                <option value="1">FERRETERIA</option>
-                                <option value="1">LITOGRAFIA</option>
-                                <option value="1">ZAPATERIA</option>
-                                <option value="1">FUNERARIA</option>
-                                <option value="1">SERVICIO DE FOTOGRAFIA</option>
-
-                            </select>
-                            <input id="cjclave" class="input" placeholder="Buscar aqui">
-                            <button id="btbuscar" class="search-btn">Buscar</button>
-
-                    </div>
-                </div>
-                <!-- /categorias -->
-            </div>
-            <!-- row -->
-        </div>
-        <!-- container -->
-    </div>
-    <!-- /MAIN HEADER -->
-</header>
 <!-- /HEADER -->
 
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXxxxxxx aquie va  -->
 
 <div class="container">
-    <h1>esto es lo de en medio</h1>
+
     <!-- SECTION -->
     <div class="container">
     <div class="section" id="todo">
@@ -123,7 +19,7 @@
 
 
 <div class="container">
-    <div id="map" style=""></div>
+
     <!-- row -->
    <div id="lista_negocios">
     <?php
@@ -140,3 +36,14 @@
 </div>
 <!-- /container -->
 
+<script>
+    $("#btbuscar").click(function () {
+        var parametro=$("#cjclave").val();
+        $.ajax({
+            url:"index/obtenerNegocios2/"+parametro,
+            success:function (data) {
+                $("#lista_negocios").html(data);
+            }
+        });
+    });
+</script>

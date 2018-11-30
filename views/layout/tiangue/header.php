@@ -42,4 +42,147 @@
     <script src="<?php echo $_layoutParams['ruta_js'];?>nouislider.min.js"></script>
     <script src="<?php echo $_layoutParams['ruta_js'];?>jquery.zoom.min.js"></script>
     <script src="<?php echo $_layoutParams['ruta_js'];?>main.js"></script>
+
+
+
+
+
+
+
 </head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+<!-- HEADER -->
+<header>
+    <!-- MAIN HEADER -->
+    <div id="">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- LOGO -->
+                <div class="col-md-6 col-lg-2 col-xs-6">
+                    <div class="header-logo">
+                        <a href="#" class="logo">
+                            <img src="<?php echo $_layoutParams['ruta_img'];?>/h1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- /LOGO -->
+
+
+
+
+                <!-- categorias -->
+                <div class="col-md-8 col-lg-9 col-xs-6">
+                    <div class="header-search">
+                        <div class="row">
+                            <select class="input-select col-lg-4">
+                                <option value="0">Categorias</option>
+                                <option value="1">TRUCHA</option>
+                                <option value="1">RESTAURANTE</option>
+                                <option value="1">TIENDA</option>
+                                <option value="1">MISSELANEA</option>
+                                <option value="1">SUPERMERCADO</option>
+                                <option value="1">LICORERIA</option>
+                                <option value="1">ASERRADERO</option>
+                                <option value="1">BENEFICIO DE CAFÉ</option>
+                                <option value="1">PROCESADORA DE TABACO</option>
+                                <option value="1">EMPRESA CONSTRUCTORA</option>
+                                <option value="1">FABRICA</option>
+                                <option value="1">SERVICIOS BANCARIOS</option>
+                                <option value="1">SERVICIOS PROFESIONALES</option>
+                                <option value="1">SERVICIOS MEDICOS</option>
+                                <option value="1">TALLER</option>
+                                <option value="1">SALON DE BELLEZA</option>
+                                <option value="1">MOLINOS</option>
+                                <option value="1">TOSTADORA DE CAFÉ</option>
+                                <option value="1">BAR</option>
+                                <option value="1">BAR Y RESTAURANTE</option>
+                                <option value="1">PANADERIA</option>
+                                <option value="1">LICORERIA</option>
+                                <option value="1">PULPERIA</option>
+                                <option value="1">FARMACIA</option>
+                                <option value="1">TRANSPORTE</option>
+                                <option value="1">COMEDOR</option>
+
+                                <option value="1">VULCANIZADORA</option>
+                                <option value="1">ENTIDAD FINANCIERA</option>
+                                <option value="1">PUBLICIDAD</option>
+                                <option value="1">ALQUILER</option>
+                                <option value="1">BILLARES</option>
+                                <option value="1">VIDEO JUEGOS</option>
+                                <option value="1">FRITANGA</option>
+                                <option value="1">FOTOCOPIADO</option>
+                                <option value="1">IMPORTACIONES Y EXPORTACIONES</option>
+                                <option value="1">JUEGOS DE AZAR</option>
+                                <option value="1">AUTOLAVADO</option>
+
+                                <option value="1">CLINICA</option>
+                                <option value="1">FUNERARIA</option>
+                                <option value="1">EMISORA</option>
+                                <option value="1">BUFFE JURIDICO</option>
+                                <option value="1">SUPERMERCADO</option>
+                                <option value="1">CAFETIN</option>
+                                <option value="1">DECORACIÓN</option>
+                                <option value="1">ACADEMIA</option>
+                                <option value="1">ESCUELA</option>
+                                <option value="1">SERIGRAFIAS</option>
+                                <option value="1">LIBRERIA</option>
+
+                                <option value="1">CIBER</option>
+                                <option value="1">BARBERIA</option>
+                                <option value="1">TELECOMUNICACIONES</option>
+                                <option value="1">CENTRO DE CAPACITACIONES</option>
+                                <option value="1">FERRETERIA</option>
+                                <option value="1">LITOGRAFIA</option>
+                                <option value="1">ZAPATERIA</option>
+                                <option value="1">FUNERARIA</option>
+                                <option value="1">SERVICIO DE FOTOGRAFIA</option>
+
+                            </select>
+                            <input  id="cjclave" class="input col-lg-6" placeholder="Buscar aqui">
+                            <button  id="btbuscar" class="search-btn col-lg-3">Buscar</button>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /categorias -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </div>
+    <!-- /MAIN HEADER -->
+
+    <div class="container">
+        <div class="row">
+
+
+            <div id="menu" class="navbar-nav col-lg-offset-3">
+                <a class="nav-item nav-link" href="<?php echo BASE_URL; ?>">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="<?php echo BASE_URL."mapa"; ?>">Mapa</a>
+                <a class="nav-item nav-link" href="<?php echo BASE_URL."eventos"; ?>">Eventos</a>
+                <a class="nav-item nav-link disabled" href="<?php echo BASE_URL."promociones"; ?>">Promociones</a>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+</header>

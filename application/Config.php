@@ -5,7 +5,7 @@
  * Date: 24/03/2017
  * Time: 10:46 AM
  */
-define('BASE_URL','http://servidor/tiangue/');
+define('BASE_URL','http://localhost/tiangue/');
 define('DEFAULT_CONTROLLER','index');
 define('DEFAULT_LAYOUT','tiangue');
 define('HASH_KEY','58f292aaea2a0');

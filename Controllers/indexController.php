@@ -66,7 +66,7 @@ public function obtenerImagenNegocio($id){
 
 public function obtenerNegocios($cadena){
         $datos_negocios=$this->_persona->obtenerNegocios($cadena);
-        $lista_negocios="lista de negocios";
+        $lista_negocios="";
         $conteo=0;
 
         for($i=0;$i<count($datos_negocios);$i++)
