@@ -1,4 +1,10 @@
-
+<style>
+    .notin{
+        width: 280px;
+        padding: 10px;
+        border-radius: 0px 10px 0px 10px;
+    }
+</style>
 <!-- SECTION -->
 <div class="container">
     <div class="section col-md-6">
@@ -26,7 +32,7 @@
 
 
                             <span class="glyphicon glyphicon-location"></span>
-                            <div class="alert-info">
+                            <div class="alert-info notin">
                                 <p class="alert-info">Busquenos: De donde fue la Policia 2 c al O</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
@@ -40,8 +46,8 @@
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
                             <img class="card-img-top" src="<?php echo $_layoutParams['ruta_img'];?>tel.png" alt="Card image cap">
-                            <div class="alert-info">
-                                <p class="alert-info">Llamenos al 84210198</p>
+                            <div class="alert-danger notin">
+                                <p class="">Llamenos al 84210198</p><p>Atendemos de 8 a 20 horas</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
 
@@ -54,8 +60,8 @@
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
                             <img class="card-img-top" src="<?php echo $_layoutParams['ruta_img'];?>des.png" alt="Card image cap">
-                            <div class="alert-info">
-                                <p class="alert-info">Descripcion: Le ofrecemos abarrotes</p><p> en General, lacteos, poteria y todo lo del hogar</p>
+                            <div class="alert-warning notin">
+                                <p class="">Descripcion: Le ofrecemos abarrotes en General, lacteos, poteria y todo lo del hogar</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
 
@@ -70,7 +76,11 @@
             </div>
 
             <div class="container">
-                <di></di>
+                <div class="row">
+                  <h5>Como estuvo la atención:</h5>  <a href="#" class="btn btn-info">Bien-1</a>
+                    <a href="#" class="btn btn-success">Salvaje-2</a>
+                    <a href="#" class="btn btn-warning">Tuani-3</a>
+                </div>
             </div>
 
 
