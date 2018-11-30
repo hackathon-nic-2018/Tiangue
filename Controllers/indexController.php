@@ -8,6 +8,12 @@ private $_persona;
        $this->_persona=$this->loadModel('negocios');
     }
 
+    public function tiangues()
+    {
+
+    }
+
+
     public function index()
     {
 

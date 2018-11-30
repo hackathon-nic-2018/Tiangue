@@ -149,7 +149,16 @@ textarea.input {
   transform: skewX(-45deg);
 }
 
-
+.shop-body h5{
+  color: #FFF;
+}
+.shop-body p{
+  color: #FFF;
+}
+#btlogin{
+  background: #d10024;
+  color:#fff;
+}
 
 .shop .shop-img {
   position: relative;

@@ -35,6 +35,8 @@
         }
     </style>
 
+
+
     <!-- jQuery Plugins -->
     <script src="<?php echo $_layoutParams['ruta_js'];?>jquery.min.js"></script>
     <script src="<?php echo $_layoutParams['ruta_js'];?>bootstrap.min.js"></script>
@@ -68,8 +70,25 @@
     <div id="">
         <!-- container -->
         <div class="container">
+            <!-- LOGIN -->
+            <br>
+            <div class="container col-lg-offset-3">
+                <form class="form-inline" role="form">
+                    <div class="form-group">
+                        <label class="text-danger" for="ejemplo_email_2">Usuario</label>
+                        <input type="email" class="form-control" id="ejemplo_email_2" placeholder="Nombre de Usuario">
+                    </div>
+                    <div class="form-group">
+                        <label class="text-danger" for="ejemplo_password_2">Clave</label>
+                        <input type="password" class="form-control" id="ejemplo_password_2" placeholder="Contraseña">
+                    </div>
+                    <button type="submit" class="btn" id="btlogin">Entrar</button>
+                </form>
+            </div>
+            <!-- /LOGIN -->
             <!-- row -->
             <div class="row">
+
                 <!-- LOGO -->
                 <div class="col-md-6 col-lg-2 col-xs-6">
                     <div class="header-logo">
