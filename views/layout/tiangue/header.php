@@ -71,9 +71,12 @@
         <!-- container -->
         <div class="container">
             <!-- LOGIN -->
-            <br>
-            <div class="container col-lg-offset-3">
-                <form class="form-inline" role="form">
+
+
+
+
+            <div class="container ">
+                <form class="form-inline col-lg-offset-3" role="form">
                     <div class="form-group">
                         <label class="text-danger" for="ejemplo_email_2">Usuario</label>
                         <input type="email" class="form-control" id="ejemplo_email_2" placeholder="Nombre de Usuario">
@@ -83,8 +86,16 @@
                         <input type="password" class="form-control" id="ejemplo_password_2" placeholder="Contraseña">
                     </div>
                     <button type="submit" class="btn" id="btlogin">Entrar</button>
+                    <a href="registro" type="submit" class="btn btn-warning" id="">Registrarse</a>
                 </form>
             </div>
+
+
+
+
+
+
+
             <!-- /LOGIN -->
             <!-- row -->
             <div class="row">

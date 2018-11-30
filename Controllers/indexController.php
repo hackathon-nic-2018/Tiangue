@@ -159,6 +159,7 @@ public function obtenerNegocios($cadena){
 
     public function registro()
     {
+
         $this->_view->renderizar('registro');
     }
 }
