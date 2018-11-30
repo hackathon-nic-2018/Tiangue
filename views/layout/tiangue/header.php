@@ -91,7 +91,7 @@
                        echo"  <a type='submit' class='btn' id='btlogin'>Entrar</a>
                             <a href='registro' type='submit' class='btn btn-warning'>Registrarse</a>";
                    else{
-                       echo"<a href='login/salir'type='submit' class='btn' id='salir'>Salir</a>";
+                       echo"<a href='".BASE_URL."login/salir' type='submit' class='btn' id='salir'>Salir</a>";
                    }
                     ?>
 
@@ -207,6 +207,10 @@
                 <a class="nav-item nav-link" href="<?php echo BASE_URL."mapa"; ?>">Mapa</a>
                 <a class="nav-item nav-link" href="<?php echo BASE_URL."eventos"; ?>">Eventos</a>
                 <a class="nav-item nav-link disabled" href="<?php echo BASE_URL."promociones"; ?>">Promociones</a>
+                <?php
+                if(Session::get('autenticado'))
+                    echo "<a class='nav-item nav-link disabled' href='". BASE_URL."registro/autenticarlo/".Session::get('idP')."' >Perfil</a>";
+                ?>
             </div>
 
 

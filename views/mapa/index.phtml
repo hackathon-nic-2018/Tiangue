@@ -77,7 +77,8 @@
 
                 var icon="";
                 var f=new Date();
-                if( markerElem.getAttribute('abre')>= f.getHours() && markerElem.getAttribute('abre')<= f.getHours())
+
+                if( markerElem.getAttribute('abre')<= f.getHours() && markerElem.getAttribute('cierra')>= f.getHours())
                     icon='http://maps.google.com/mapfiles/ms/icons/green-dot.png';
                 else
                     icon='http://maps.google.com/mapfiles/ms/icons/red-dot.png';

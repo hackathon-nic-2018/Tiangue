@@ -67,7 +67,7 @@ $("#btlogin").click(function () {
             if(!data)
                 alert("Usuario y Clave Incorrecta");
             else
-                window.open('registro/auntenticar/'+data,"_self");
+                window.open('registro/autenticarlo/'+data,"_self");
         }
    });
 });

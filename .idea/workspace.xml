@@ -50,33 +50,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout/tiangue/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+            <state relative-caret-position="431">
+              <caret line="211" column="124" lean-forward="false" selection-start-line="211" selection-start-column="124" selection-end-line="211" selection-end-column="124" />
               <folding>
-                <marker date="1543567261332" expanded="true" signature="3029:3278" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="3117:3278" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="3163:3278" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="3213:3278" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="3515:8141" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="3563:8118" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="3605:8091" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="3672:7865" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="8330:8903" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="8356:8892" ph="..." />
-                <marker date="1543567261332" expanded="true" signature="8421:8871" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="3042:3291" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="3130:3291" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="3176:3291" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="3226:3291" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="3528:8154" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="3576:8131" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="3618:8104" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="3685:7878" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="8343:9149" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="8369:9138" ph="..." />
+                <marker date="1543570070572" expanded="true" signature="8434:9117" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout/tiangue/css/style.css">
+      <file leaf-file-name="mapaController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/mapaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="175" column="11" lean-forward="false" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
+            <state relative-caret-position="170">
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -85,18 +85,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout/tiangue/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1039">
-              <caret line="69" column="66" lean-forward="false" selection-start-line="69" selection-start-column="66" selection-end-line="69" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="69" column="40" lean-forward="false" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -105,41 +95,19 @@
       <file leaf-file-name="registroController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controllers/registroController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="119">
+              <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="perfilComerciante.phtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="perfilComerciante.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/registro/perfilComerciante.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="95" column="10" lean-forward="false" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+            <state relative-caret-position="272">
+              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registroModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/registroModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <marker date="1543560948385" expanded="true" signature="209:267" ph="select count... usuario" />
-                <marker date="1543560948385" expanded="true" signature="209:285" ph="select count... usuario" />
-                <marker date="1543560948385" expanded="true" signature="507:547" ph="select * fro... usuario" />
-                <marker date="1543560948385" expanded="true" signature="507:548" ph="select * fro... usuario" />
-                <marker date="1543560948385" expanded="true" signature="507:549" ph="select * fro... usuario" />
-                <marker date="1543560948385" expanded="true" signature="507:557" ph="select * fro... usuario" />
-                <marker date="1543560948385" expanded="true" signature="794:950" ph="insert into persona_comerciante... " />
-                <marker date="1543560948385" expanded="true" signature="1270:1277" ph="select * fro... usuario" />
-                <marker date="1543560948385" expanded="true" signature="1270:1326" ph="select max(i... persona_comerciante" />
-                <marker date="1543560948385" expanded="true" signature="1386:1505" ph="insert into " />
-                <marker date="1543560948385" expanded="true" signature="1730:1774" ph="select max(i... usuario" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -227,7 +195,6 @@
         <option value="$PROJECT_DIR$/Controllers/mapaController.php" />
         <option value="$PROJECT_DIR$/public/mapa.php" />
         <option value="$PROJECT_DIR$/views/index/js/funciones.js" />
-        <option value="$PROJECT_DIR$/views/mapa/index.phtml" />
         <option value="$PROJECT_DIR$/views/index/index.phtml" />
         <option value="$PROJECT_DIR$/models/eventos.php" />
         <option value="$PROJECT_DIR$/models/eventosController.php" />
@@ -236,14 +203,15 @@
         <option value="$PROJECT_DIR$/views/eventos/index.phtml" />
         <option value="$PROJECT_DIR$/views/registro/registronegocio.phtml" />
         <option value="$PROJECT_DIR$/views/registro/index.phtml" />
-        <option value="$PROJECT_DIR$/views/registro/perfilComerciante.phtml" />
         <option value="$PROJECT_DIR$/models/registroModel.php" />
-        <option value="$PROJECT_DIR$/views/layout/tiangue/footer.php" />
-        <option value="$PROJECT_DIR$/Controllers/registroController.php" />
         <option value="$PROJECT_DIR$/Controllers/loginController.php" />
         <option value="$PROJECT_DIR$/Controllers/indexController.php" />
         <option value="$PROJECT_DIR$/views/layout/tiangue/css/style.css" />
+        <option value="$PROJECT_DIR$/views/mapa/index.phtml" />
+        <option value="$PROJECT_DIR$/Controllers/registroController.php" />
+        <option value="$PROJECT_DIR$/views/layout/tiangue/footer.php" />
         <option value="$PROJECT_DIR$/views/layout/tiangue/header.php" />
+        <option value="$PROJECT_DIR$/views/registro/perfilComerciante.phtml" />
       </list>
     </option>
   </component>
@@ -349,26 +317,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tiangue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiangue" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tiangue" />
+              <option name="myItemId" value="mapa" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,8 +343,32 @@
               <option name="myItemId" value="tiangue" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="tiangue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tiangue" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tiangue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tiangue" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -569,12 +543,12 @@
       <workItem from="1543334332696" duration="3867000" />
       <workItem from="1543457383141" duration="2448000" />
       <workItem from="1543507248712" duration="99000" />
-      <workItem from="1543507806130" duration="54413000" />
+      <workItem from="1543507806130" duration="57568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227030000" />
+    <option name="totallyTimeSpent" value="230185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,14 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/mapa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index/registro.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -695,26 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/mapaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index/js/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/mapa/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -841,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/registro/perfilComerciante.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="95" column="10" lean-forward="false" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/registroModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -869,26 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/registro/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="120" column="16" lean-forward="false" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/loginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -911,39 +837,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/mapa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1543534373988" expanded="true" signature="232:287" ph="SELECT * FRO... negocio" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mapa/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="80" column="104" lean-forward="false" selection-start-line="80" selection-start-column="104" selection-end-line="80" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registro/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="120" column="16" lean-forward="false" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout/tiangue/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="69" column="66" lean-forward="false" selection-start-line="69" selection-start-column="66" selection-end-line="69" selection-end-column="66" />
+        <state relative-caret-position="364">
+          <caret line="69" column="40" lean-forward="false" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/mapaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/registroController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="119">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout/tiangue/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+        <state relative-caret-position="431">
+          <caret line="211" column="124" lean-forward="false" selection-start-line="211" selection-start-column="124" selection-end-line="211" selection-end-column="124" />
           <folding>
-            <marker date="1543567261332" expanded="true" signature="3029:3278" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="3117:3278" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="3163:3278" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="3213:3278" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="3515:8141" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="3563:8118" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="3605:8091" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="3672:7865" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="8330:8903" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="8356:8892" ph="..." />
-            <marker date="1543567261332" expanded="true" signature="8421:8871" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="3042:3291" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="3130:3291" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="3176:3291" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="3226:3291" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="3528:8154" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="3576:8131" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="3618:8104" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="3685:7878" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="8343:9149" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="8369:9138" ph="..." />
+            <marker date="1543570070572" expanded="true" signature="8434:9117" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registro/perfilComerciante.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

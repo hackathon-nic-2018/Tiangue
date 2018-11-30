@@ -29,10 +29,10 @@ class registroController extends Controller{
         Session::set("tiempo",time());
         Session::set('level','usuario');
         Session::set('idP',$id);
-        $this->redireccionar('registro/perfilComerciante');
+        $this->perfilComerciante($id);
 
     }
-    public function perfilComerciante()
+    public function perfilComerciante($id)
     {
         Session::acceso('usuario');
         $this->_view->renderizar('perfilComerciante');
