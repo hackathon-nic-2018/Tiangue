@@ -100,12 +100,12 @@
 
 </div>
 
-    <div id="mproductos" class="tab-pane fade">
-        <h3>Lista de Productos</h3>
-        <table>
-            <thead><tr><th>Nombre</th><th>Descripcion</th> <th>Precio</th><th>Accion</th></tr></thead>
-            <?php echo $this->lista_productos;?>
-        </table>
+    <div id="mproductos" class="tab-pane fade" >
+            <h3>Lista de Productos</h3>
+            <table class="table table-responsive">
+                <thead><tr><th>Nombre</th><th>Descripcion</th> <th>Precio</th><th>Accion</th></tr></thead>
+                <?php echo $this->lista_productos;?>
+            </table>
 
         <h4>Agregar Productos</h4>
         <form action="" method="post" enctype="multipart/form-data">

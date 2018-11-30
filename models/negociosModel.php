@@ -12,7 +12,8 @@ class negociosModel extends Model{
 
     public function obtenerNegocios($cadena){
 
-        $datos=$this->_db->query("select * from negocio where descripcion like '%$cadena%' limit 10");
+        $datos=$this->_db->query("select * from negocio where descripcion like '%$cadena%' 
+        limit 15");
         $result=$datos->fetchAll();
         return $result;
 

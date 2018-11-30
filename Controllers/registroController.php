@@ -14,7 +14,6 @@ class registroController extends Controller{
     public function registrar()
     {
 
-  //      'nombre':nombre,'cedula':cedula,'direccion':direccion,'genero':genero,'pass':pass,'email':email,'telefono':telefono
        if(!$this->validarEmail($this->getTexto('email')))
            echo "El Email no es Valido";
            else{

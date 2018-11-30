@@ -94,7 +94,8 @@ public function obtenerNegocios($cadena){
                 </div>
                 <div class='shop-body'>
                     <h4>".$datos_negocios[$i]['nombre_negocio']."</h4>
-                    <a href='negocios/ver/".$datos_negocios[$i]['idnegocio']."' class='cta-btn'>Ver <i class='fa fa-arrow-circle-right'></i></a>
+                    <h5>".$datos_negocios[$i]['descripcion']."</h5>
+                   <h4> <a href='negocios/ver/".$datos_negocios[$i]['idnegocio']."' class='cta-btn'>Ver Negocio<i class='fa fa-arrow-circle-right'></i></a></4>
                 </div>
             </div>
         </div>";

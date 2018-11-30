@@ -8,7 +8,7 @@
 \*----------------------------*/
 
 #contenidogeneral{
-  min-height: 230px;
+  min-height: 240px;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -191,13 +191,18 @@ textarea.input {
   padding: 30px;
   z-index: 10;
 }
+.shop a{
+  color:#c7254e;
+  font-size: 1.2em;
+  font-family: "Arial Black";
+}
 
 .shop .shop-body h4 {
   color: #FFF;/*informacion de las imagenes*/
 }
 
 .shop .shop-body .cta-btn {
-  color: #FFF;
+  /*color: #FFF;*/
   text-transform: uppercase;
 }
 

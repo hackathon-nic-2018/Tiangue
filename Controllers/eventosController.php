@@ -28,7 +28,7 @@ class eventosController extends Controller
             }
 
             if($datos_negocios[$i]['imagenportada']==NULL)
-                $imagen=BASE_URL."public/default.jpg";
+                $imagen=BASE_URL."public/default1.jpg";
             else
                 $imagen=BASE_URL."public/vista.php?id=".$datos_negocios[$i]['id_negocio'];
 
