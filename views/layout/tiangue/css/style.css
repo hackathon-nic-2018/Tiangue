@@ -155,7 +155,7 @@ textarea.input {
 .shop-body p{
   color: #FFF;
 }
-#btlogin{
+#btlogin,#salir{
   background: #d10024;
   color:#fff;
 }
@@ -171,7 +171,10 @@ textarea.input {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
-
+.shop .shop-img img{
+  width: 400px;
+  height: 300px;
+}
 .shop:hover .shop-img>img {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);

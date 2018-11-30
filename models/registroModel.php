@@ -4,6 +4,14 @@ class registroModel extends Model{
     {
         parent::__construct();
     }
+
+    public function verificarCuenta($usuario,$pass)
+    {
+        $res=$this->_db->query("select idusuario from usuario where nameusuario='$usuario' and clave='$pass'");
+        $resultado=$res->fetch();
+       return $resultado['idusuario'];
+    }
+
     public function insertarPersona($nombre,$cedula,$direccion,$genero,$usuario,$pass,$email,$telefono){
 
         $res=$this->_db->query("select * from usuario where nameusuario='$usuario'");

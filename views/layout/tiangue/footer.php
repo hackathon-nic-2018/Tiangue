@@ -51,7 +51,27 @@
 </footer>
 
 <!-- /FOOTER -->
+<script>
+$("#btlogin").click(function () {
+   var usu=$("#usuario_login").val();
+    var pass=$("#pass_login").val();
 
+    $.ajax({
+       url:"registro/verificarCuenta",
+        type:"post",
+        data:{
+           'usuario':usu,
+            'pass':pass
+        },
+        success:function (data) {
+            if(!data)
+                alert("Usuario y Clave Incorrecta");
+            else
+                window.open('registro/auntenticar/'+data,"_self");
+        }
+   });
+});
+</script>
 
 </body>
 </html>

@@ -27,7 +27,7 @@ class registroController extends Controller{
     public function autenticarlo($id){
         Session::set("autenticado",true);
         Session::set("tiempo",time());
-        Session::set('role','usuario');
+        Session::set('level','usuario');
         Session::set('idP',$id);
         $this->redireccionar('registro/perfilComerciante');
 
@@ -40,7 +40,12 @@ class registroController extends Controller{
 
     public function verificarCuenta()
     {
-        
+        $resp=$this->_registro->verificarCuenta($this->getTexto('usuario'),$this->getTexto('pass'));
+        if(!$resp)
+        echo false;
+        else
+           echo $resp;
+
     }
 
 }

@@ -64,6 +64,7 @@
 
 
 <body>
+<br>
 <!-- HEADER -->
 <header>
     <!-- MAIN HEADER -->
@@ -79,21 +80,23 @@
                 <form class="form-inline col-lg-offset-3" role="form">
                     <div class="form-group">
                         <label class="text-danger" for="ejemplo_email_2">Usuario</label>
-                        <input type="email" class="form-control" id="ejemplo_email_2" placeholder="Nombre de Usuario">
+                        <input type="text" class="form-control" id="usuario_login" placeholder="Nombre de Usuario">
                     </div>
                     <div class="form-group">
                         <label class="text-danger" for="ejemplo_password_2">Clave</label>
-                        <input type="password" class="form-control" id="ejemplo_password_2" placeholder="Contraseña">
+                        <input type="password" class="form-control" id="pass_login" placeholder="Contraseña">
                     </div>
-                    <button type="submit" class="btn" id="btlogin">Entrar</button>
-                    <a href="registro" type="submit" class="btn btn-warning" id="">Registrarse</a>
+                    <?php
+                   if(!Session::get("autenticado"))
+                       echo"  <a type='submit' class='btn' id='btlogin'>Entrar</a>
+                            <a href='registro' type='submit' class='btn btn-warning'>Registrarse</a>";
+                   else{
+                       echo"<a href='login/salir'type='submit' class='btn' id='salir'>Salir</a>";
+                   }
+                    ?>
+
                 </form>
             </div>
-
-
-
-
-
 
 
             <!-- /LOGIN -->

@@ -83,7 +83,7 @@ public function obtenerNegocios($cadena){
             }
 
                 if($datos_negocios[$i]['imagenportada']==NULL)
-                    $imagen=BASE_URL."public/default.jpg";
+                    $imagen=BASE_URL."public/default".$conteo.".jpg";
                 else
                     $imagen=BASE_URL."public/vista.php?id=".$datos_negocios[$i]['idnegocio'];
 
@@ -126,7 +126,7 @@ public function obtenerNegocios($cadena){
             }
 
             if($datos_negocios[$i]['imagenportada']==NULL)
-                $imagen=BASE_URL."public/default.jpg";
+                $imagen=BASE_URL."public/default".$conteo.".jpg";
             else
                 $imagen=BASE_URL."public/vista.php?id=".$datos_negocios[$i]['idnegocio'];
 
